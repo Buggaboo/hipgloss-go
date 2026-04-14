@@ -218,7 +218,7 @@ esac
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENCE](LICENCE) file for details.
 
 ## Acknowledgments
 
