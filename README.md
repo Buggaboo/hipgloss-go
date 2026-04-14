@@ -41,6 +41,13 @@ hipgloss --menu "Select an option" 15 40 5 \
     5 "Quit"
 ```
 
+Example: on mac os, pipe the selected branch to pbcopy to paste later.
+
+```bash
+ ./hipgloss --backtitle "Select git branch" \
+   --menu "from $PWD" 20 80 15 $(git for-each-ref --format='%(refname:short)' refs/heads/ | awk '{printf "%s %s ", $1, $1}') | pbcopy
+```
+
 With default item and backtitle:
 
 ```bash
