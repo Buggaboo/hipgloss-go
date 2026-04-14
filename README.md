@@ -228,7 +228,6 @@ esac
 MIT License - see [LICENCE](LICENCE) file for details.
 
 ## Acknowledgments
-
-- Inspired by the original [whiptail](https://en.wikipedia.org/wiki/Whiptail_(software))
+- The original [Dialog](https://en.wikipedia.org/wiki/Dialog_(software)) developers for the inspiration
 - Built with [Charm](https://charm.sh/)'s excellent TUI libraries
 - Color scheme by [Catppuccin](https://catppuccin.com/)
